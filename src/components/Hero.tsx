@@ -1,15 +1,10 @@
 import { Button } from '@/components/ui/button';
 import { Calendar, MapPin } from 'lucide-react';
-
 const Hero = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center">
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2849&q=80)',
-        }}
-      >
+  return <section id="home" className="relative min-h-screen flex items-center justify-center">
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: 'url(https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2849&q=80)'
+    }}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       </div>
       
@@ -17,9 +12,7 @@ const Hero = () => {
         <h2 className="text-5xl md:text-7xl font-bold mb-6">
           Welcome to Paradise
         </h2>
-        <p className="text-xl md:text-2xl mb-8 opacity-90">
-          Experience luxury by the sea at Azure Bay Resort
-        </p>
+        <p className="text-xl md:text-2xl mb-8 opacity-90">test-by the sea at Azure Bay Resort</p>
         <p className="text-lg mb-12 opacity-80 max-w-2xl mx-auto">
           Discover pristine beaches, world-class amenities, and unforgettable moments 
           at our exclusive seaside retreat where every detail is designed for your comfort.
@@ -51,8 +44,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
