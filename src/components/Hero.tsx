@@ -8,9 +8,8 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       </div>
       
-      <div className="mx-[autopx] text-lg mb-12 opacity-80 max-w-2xl">test-Discover pristine beaches, world-class amenities, and unforgettable moments at our exclusive seaside retreat where every detail is designed for your comfort.<h2 className="text-5xl md:text-7xl font-bold mb-6">
-          Welcome to Paradise
-        </h2>
+      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+        <h2 className="mx-[autopx] text-lg mb-12 opacity-80 max-w-2xl">Discover pristine beaches, world-class amenities, and unforgettable moments at our exclusive seaside retreat where every detail is designed for your comfort.</h2>
         <p className="text-xl md:text-2xl mb-8 opacity-90">
           Experience luxury by the sea at Azure Bay Resort
         </p>
