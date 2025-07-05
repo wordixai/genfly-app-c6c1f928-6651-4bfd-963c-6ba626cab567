@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Waves, Dumbbell, Utensils, Wifi, Car, Coffee, Spa, Shield, Clock } from 'lucide-react';
+import { Waves, Dumbbell, Utensils, Wifi, Car, Coffee, Heart, Shield, Clock } from 'lucide-react';
 
 const Amenities = () => {
   const amenities = [
@@ -19,7 +19,7 @@ const Amenities = () => {
       description: "Award-winning restaurants featuring international and local cuisine"
     },
     {
-      icon: Spa,
+      icon: Heart,
       title: "Luxury Spa",
       description: "Full-service spa offering rejuvenating treatments and wellness programs"
     },
