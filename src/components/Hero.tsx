@@ -15,7 +15,7 @@ const Hero = () => {
       
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h2 className="text-5xl md:text-7xl font-bold mb-6">
-          Welcome to Paradise
+           Paradise
         </h2>
         <p className="text-xl md:text-2xl mb-8 opacity-90">
           Experience luxury by the sea at Azure Bay Resort
